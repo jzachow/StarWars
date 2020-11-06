@@ -1,0 +1,9 @@
+﻿@model StarWarsModel
+
+
+@foreach (var planets in Model.Planets)
+{
+    <h1>@planets.Name</h1>
+    <p>@planets.Climate</p>
+}
+
